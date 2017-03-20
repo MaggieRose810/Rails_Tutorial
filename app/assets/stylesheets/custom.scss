@@ -3,6 +3,14 @@
 
 $gray-light: #777;
 $gray-medium-light: #eaeaea;
+
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
+
 $gray: #555;
 $gray-darker: #222;
 
@@ -98,3 +106,12 @@ img {
   display: none;
 }
 
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
