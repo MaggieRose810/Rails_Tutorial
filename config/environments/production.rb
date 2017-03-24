@@ -71,7 +71,7 @@ config.action_mailer.raise_delivery_errors = true
     :user_name      => ENV['SENDGRID_USERNAME'],
     :password       => ENV['SENDGRID_PASSWORD'],
     :domain         => 'heroku.com',
-    :host => 'localhost:3000'
+    :host => 'localhost:3000',
     :enable_starttls_auto => true
   }
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
